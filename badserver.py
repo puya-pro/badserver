@@ -32,10 +32,10 @@ if command[0] == "-u" or command[0] == "--url":
         print("\n", key, " : ", value, "\n")
 
 elif command[0] == "-g" or command[0] == "--git":
-    webbrowser.open("https://github.com/py-techno")
+    webbrowser.open("https://github.com/py-techno/badserver")
 
 elif command[0] == "-a" or command[0] == "--about":
-    webbrowser.open("https://github.com/pop-hacker313")
+    webbrowser.open("https://github.com/py-techno")
 
 elif command[0] == "-h" or command[0] == "--help":
 	menu()
